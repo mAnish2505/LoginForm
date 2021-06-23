@@ -1,0 +1,86 @@
+body{
+    background:url(./img/avatar1.jpg);
+    padding:0px;
+    margin:0px;
+    height:100%;
+    width:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+}
+#mainSection
+{
+    border-radius:15px;
+    width:23%;
+    background:white;
+    margin:100px auto;
+    padding:20px;
+    text-align:center;
+    font-family: 'Source Sans Pro', sans-serif;
+    /*text-decoration: line-through;
+    text-indent: -99px;
+    
+    text-shadow: 444px, 644px,5448px,red ;
+    */
+}
+p{
+    letter-spacing: .02em;
+    font-size: 17px;
+    font-weight: 300;
+}
+h1
+{
+    letter-spacing: .1em;
+    color: #313f47;
+    font-size:28px;
+    font-weight: 600;
+}
+img
+{
+ border-radius: 100%;
+ border:solid black .9px;
+}
+img:hover{
+    transform: rotate(360deg);
+    transition: ease-in-out all 1.9s;
+   
+}
+
+ul li
+{
+    list-style:none;
+    padding:0px;
+    display:inline-block;
+    padding :6px;
+    border-radius: 100%;
+    border:1px solid #ccc;
+    font-size:25px; 
+    margin:0px 7px;
+    color:#ccc;
+}
+.fa-google:hover
+{
+   color:	#4285F4;
+}
+.fa-twitter:hover
+{
+   color:#1DA1F2;
+}
+.fa-facebook:hover
+{
+ color:#4267B2;
+}
+.copyright
+{
+    text-align:center;
+    color:whitesmoke;
+    font-size: 15px;
+    letter-spacing:.25em;
+    margin: 80px;
+}
+li:hover
+{
+  
+    border: .25px solid #1DA1F2;
+}
+
